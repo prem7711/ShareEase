@@ -4,7 +4,7 @@ const path = require('path');
 const cors = require("cors");
 
 
-app.use(cors({ origin: "http://127.0.0.1:3000" }))
+app.use(cors({ origin: "https://sharefilesecure.netlify.app" }))
 app.use(express.static('public'));
 app.use(express.json());
 app.set('views', path.join(__dirname, '/views'));
